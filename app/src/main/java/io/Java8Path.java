@@ -30,6 +30,19 @@ public class Java8Path {
         Path normalized = Paths.get("/usr/local/./bin/../..").normalize();
         System.out.println(normalized);
 
+        Path file = Paths.get("C:", "test.txt");
+        try {
+            byte[] bytes = Files.readAllBytes(file);
+            String content = new String(bytes);
+            System.out.println(content);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
+
+
     }
+
+
 
 }
