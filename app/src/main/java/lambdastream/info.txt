@@ -1,0 +1,9 @@
+##In java there is no way to create a method without a class. To overcome this, we can use lambda
+expression. We can use existing classes present in the java.utl.function package and create a method
+on the fly with lambda expression.
+
+Stream is a sequence of values which are not stored anywhere
+
+
+
+
