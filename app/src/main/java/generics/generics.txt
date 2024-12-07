@@ -1,0 +1,3 @@
+1 - Generics can be applied on class as well as methods. Please check Tuple class.
+2 - I will be back to understand about the generics
+
